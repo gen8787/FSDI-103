@@ -1,0 +1,43 @@
+R E S E T
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+html {
+    font-size: 62.5%;
+}
+
+
+/* G L O B A L */
+body {
+    background-color: rgb(62, 62, 187);
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20rem
+}
+
+.container p{
+    display: inline-block;
+    line-height: 1;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.date {
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.clock {
+    text-align: center;
+    font-size: 5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
