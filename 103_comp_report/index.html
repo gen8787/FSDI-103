@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Simple Calculator</title>
+    <title>🤖 Simple Calculator 🤖</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="instructions">
-            <h3>Simple Calculator</h3>
-            <p>This simple calculator will take two numbers and add, subtract, multiply, and divide those numbers. If numbers are not given, the </p>
+            <h3>🤖 Simple Calculator 🤖</h3>
+            <p>This simple calculator will take two numbers and add, subtract, multiply, and divide those numbers. If numbers are not given, the program will restart. Click the refresh button to start over.</p>
         </div>
 
         <div class="results">
-                <p id="add">num1 + num2 = num3</p>
-                <p id="subtract">num1 - num2 = num3</p>
-                <p id="multiply">num1 * num2 = num3</p>
-                <p id="divide">num1 / num2 = num3</p>
+                <p id="add"></p>
+                <p id="subtract"></p>
+                <p id="multiply"></p>
+                <p id="divide"></p>
+        </div>
+
+        <div class="refresh">
+            <button onClick="refresh()">Refresh Page</button>
         </div>
     </div>
 
